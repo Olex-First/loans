@@ -1,13 +1,9 @@
 import data from './data/current-loans.json';
 
-
 export function getCurrentLoans() {
     return data.loans;
 }
 
-export function numberWithCommas(number) {
-    return number.toLocaleString("en-US")
-}
 
 export function getTimeRemaining(seconds) {
     const displayText = [];
@@ -31,4 +27,9 @@ export function getTimeRemaining(seconds) {
     } else {
         return displayText.join(" ");
     }
+}
+
+
+export function numberWithCommas(number) {
+    return number.toLocaleString("en-US")
 }

@@ -18,16 +18,16 @@ export default function LoanCard(props) {
     } = props;
 
     return (
-        <div className="loan-card" data-testid="loan-card">
+        <div className="loan-card">
             <div className="loan-card-header">
-                <h2 className="loan-card-heading">{title}</h2>
+                <h2>{title}</h2>
                 {hasInvested && <div className="loan-card-invested-text">Invested</div>}
             </div>
             <div className="loan-card-body">
                 <div className="loan-card-items">
                     <div className="loan-item">Tranche: {tranche}</div>
                     <div className="loan-item">
-                        Available: £{(available.toLocaleString("en-US"))}
+                        Available: £{numberWithCommas(available)}
                     </div>
                     <div className="loan-item">Annualised Return: {annualisedReturn}</div>
                     <div className="loan-item">

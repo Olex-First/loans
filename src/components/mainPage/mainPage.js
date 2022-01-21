@@ -61,11 +61,11 @@ export default function MainPage(props) {
         // loanList.forEach((item) => total += item.available);
         return total;
     }
-    console.log(calculateAvailableToInvest())
+    // console.log(calculateAvailableToInvest())
 
 
     useEffect(() => {
-        const currentLoans = getCurrentLoans() || [];
+        const currentLoans = getCurrentLoans() ;
         setLoanList(currentLoans);
     }, []);
 

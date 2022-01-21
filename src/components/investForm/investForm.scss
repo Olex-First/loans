@@ -35,7 +35,6 @@
 }
 
 .invest-form .ant-btn-primary:hover {
-  color: #000;
-  background: $backgroundButtonsHover;
-  border-color: $backgroundButtonsHover;
+  @extend %yellow-btn-hover;
+
 }

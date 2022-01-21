@@ -4,4 +4,17 @@
 $backgroundButtons:#ffea00;
 $backgroundButtonsHover:#eeda00;
 
+%yellow-btn {
+  color: #000;
+  background: $backgroundButtons;
+  border-color: $backgroundButtons;
+  text-transform: uppercase;
+  padding: 0.5rem 2rem;
+}
+%yellow-btn-hover {
+  color: #000;
+  background: $backgroundButtonsHover;
+  border-color: $backgroundButtonsHover;
+}
+
 

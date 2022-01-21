@@ -45,7 +45,7 @@ export default function InvestForm(props) {
                             max={available}
                             defaultValue={investAmount}
                             value={investAmount}
-                            step={1000}
+                            step={500}
                             onChange={handleChange}
                             onPressEnter={handleClickInvest}
                         />
