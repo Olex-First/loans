@@ -1,9 +1,11 @@
 import './App.css';
+import MainPage from "./components/mainPage/mainPage";
+
 
 function App() {
   return (
     <div className="App">
-      <p>ds</p>
+        <MainPage pageTitle="Current Loans" />
     </div>
   );
 }

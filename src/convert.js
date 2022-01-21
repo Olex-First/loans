@@ -1,4 +1,5 @@
-import * as data from "./data/current-loans.json";
+import data from './data/current-loans.json';
+
 
 export function getCurrentLoans() {
     return data.loans;
