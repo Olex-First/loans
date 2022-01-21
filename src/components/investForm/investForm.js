@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Button, InputNumber } from "antd";
 import { getTimeRemaining, numberWithCommas } from "../../convert.js";
+import { Button, InputNumber } from "antd";
+import "./investForm.scss";
 
 export default function InvestForm(props) {
     const { title, available, termRemaining, makeInvestment = () => {} } = props;

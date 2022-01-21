@@ -3,6 +3,8 @@ import { getCurrentLoans, numberWithCommas } from "../../convert.js";
 import LoanCard from "../loanCard/loanCard";
 import InvestForm from "../investForm/investForm";
 import { Modal } from "antd";
+import "./mainPage.scss";
+
 
 
 

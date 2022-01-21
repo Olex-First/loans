@@ -1,0 +1,41 @@
+@import './src/App';
+
+.invest-form-error {
+  color: red;
+  padding-top: 0.5rem;
+}
+
+.invest-form-heading,
+.invest-form-details-wrapper {
+  margin-bottom: 0.75rem;
+}
+
+.invest-form-items-inner {
+  display: flex;
+  align-items: center;
+}
+
+.invest-form-label {
+  margin-bottom: 0.5rem;
+}
+
+.invest-form-amount {
+  margin-right: 0.5rem;
+}
+
+.invest-form .ant-input-number {
+  min-width: 10rem;
+}
+
+.invest-form .ant-btn-primary {
+  color: #000;
+  background: $backgroundButtons;
+  border-color: $backgroundButtons;
+  text-transform: uppercase;
+}
+
+.invest-form .ant-btn-primary:hover {
+  color: #000;
+  background: $backgroundButtonsHover;
+  border-color: $backgroundButtonsHover;
+}

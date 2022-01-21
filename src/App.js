@@ -1,5 +1,6 @@
-import './App.css';
+import './App.scss';
 import MainPage from "./components/mainPage/mainPage";
+import "antd/dist/antd.css";
 
 
 function App() {

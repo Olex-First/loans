@@ -1,5 +1,6 @@
 import { Button } from "antd";
 import { getTimeRemaining, numberWithCommas } from "../../convert.js";
+import "./loanCard.scss";
 
 
 

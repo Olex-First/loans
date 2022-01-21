@@ -1,0 +1,56 @@
+@import './src/App';
+
+.loan-card {
+  background-color: #fff;
+  border: 1px solid #d4d4d4;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2.loan-card-heading {
+  margin-bottom: 0;
+}
+
+.loan-card-invested-text {
+  font-size: 0.9rem;
+  color: #009861;
+}
+
+.loan-card-header,
+.loan-card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loan-card-header {
+  padding-bottom: 0.75rem;
+}
+
+.loan-card-invested-text,
+.loan-card-cta-wrapper {
+  margin-left: 1rem;
+}
+
+.loan-card-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.loan-item {
+  margin: 0 1rem 0.5rem 0;
+}
+
+.loan-card .ant-btn-primary {
+  color: #000;
+  background: $backgroundButtons;
+  border-color: $backgroundButtons;
+  text-transform: uppercase;
+  padding: 0.5rem 2rem;
+}
+
+.loan-card .ant-btn-primary:hover {
+  color: #000;
+  background: $backgroundButtonsHover;
+  border-color: $backgroundButtonsHover;
+}
