@@ -1,6 +1,6 @@
 import './App.scss';
 import MainPage from "./components/mainPage/mainPage";
-import "antd/dist/antd.css";
+import 'antd/dist/antd.min.css';
 
 
 function App() {

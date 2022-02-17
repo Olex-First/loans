@@ -126,7 +126,6 @@ export default function MainPage(props) {
                     <InvestForm
                         title={activeLoan.title}
                         available={activeLoan.available}
-                        termRemaining={activeLoan.term_remaining}
                         makeInvestment={(amount) =>
                             handleMakeInvestment(activeLoan.id, amount)
                         }
